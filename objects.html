@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+  </head>
+
+  <body>
+    <script>
+      const product = {
+        name: "car,house",
+        price: 1000,
+      };
+
+      console.log(product);
+      console.log(product.name);
+      product.name = "beer";
+      console.log(product.name);
+      product.quality = "original";
+      console.log(product);
+
+      //example for bracket notation
+
+      const product2 = {
+        name: "car,house",
+        price: 1000,
+        "delivery-time": "1 day",
+      };
+
+      console.log(product2["delivery-time"]);
+    </script>
+  </body>
+</html>
